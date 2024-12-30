@@ -1,0 +1,91 @@
+{
+    "aboutMe": {
+      "name": "Mahnsi Ruparelia",
+      "subtitle": "Bsc Hons. Computer Science at York University",
+      "content": "Hi! I’m Mahnsi, a passionate developer, researcher, and Computer Science student. I like Operating Systems, Theoretical CS, Linguistics, Geography, and Music! Check out my site!"
+    },
+    "projects": [
+      {
+        "name": "UniSphere - Full Stack E-Commerce Website",
+        "description": "Brief description of the project...",
+        "link": "https://github.com/mahnsi/unisphere"
+      },
+      {
+        "name": "Song popularity prediction model",
+        "description": "Used machine learning to predict song popularity using a Kaggle dataset.",
+        "link": "https://github.com/project2"
+      },
+      {
+        "name": "Bar FM",
+        "description": "Music stats website for Last.fm users.",
+        "link": "https://github.com/project2"
+      }
+    ],
+    "experience": [
+      {
+        "name": "Software QA Intern at Environics Analytics",
+        "description": "errr"
+      },
+      {
+        "name": "Undergraduate Researcher at York University",
+        "description": "erm"
+      }
+    ],
+    "contact": {
+      "message": "Feel free to reach out through the following platforms:",
+      "links": [
+        {
+          "link":"mailto:mahnsirupa10@gmail.com",
+          "img" : "/assets/contact/mail.png"
+        },
+        {
+          "link":"https://www.linkedin.com/in/mahnsi",
+          "img" : "/assets/contact/linkedin.png"
+        },
+        {
+          "link":"https://devpost.com/mahnsi",
+          "img" : "/assets/contact/devpost.png"
+        },
+        {
+          "link":"https://github.com/mahnsi",
+          "img" : "/assets/contact/github.png"
+        },
+        {
+          "link":"https://www.youtube.com/@conegf",
+          "img" : "/assets/contact/youtube.png"
+        }
+      ]
+    },
+
+    "gallery": [
+      { "type": "image", "src": "/assets/gallery/1.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/2.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/3.JPG", "alt": "Image" },
+      { "type": "video", "src": "/assets/gallery/x.mp4", "alt": "Video" }
+    ],
+
+    "songs": [
+      {
+        "title": "Par 5",
+        "artist": "Kitty Craft",
+        "file": "/assets/music/par5.mp3",
+        "duration": 229
+      },
+      {
+        "title": "Venus as a Boy",
+        "artist": "Bjork",
+        "file": "/assets/music/vaab.mp3",
+        "duration": 286
+      },
+      {
+        "title": "I'll be your mirror",
+        "artist": "The Velvet Underground",
+        "file": "/assets/music/ibym.mp3",
+        "duration": 134
+      }
+    ]
+    
+}
+
+
+  
