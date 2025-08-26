@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-import NavBar from './components/Navbar';
+import NavBar from './components/NavBar';
 import MusicPlayer from './components/MusicPlayer';
 
 export default function App() {

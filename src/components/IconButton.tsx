@@ -1,4 +1,4 @@
-function IconButton({ image, label, onClick }) {
+function IconButton({ image, label, onClick }: {image: string; label: string; onClick: ()=>void}) {
     return (
       <div className="group flex flex-col items-center relative peer">
         <button

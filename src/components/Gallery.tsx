@@ -15,7 +15,7 @@ export default function Gallery() {
     setCurrentIndex((currentIndex - 1 + gallery.length) % gallery.length);
   };
 
-  const openModal = (index) => {
+  const openModal = (index: number) => {
     setCurrentIndex(index);
     setIsModalOpen(true);
   };
@@ -60,7 +60,6 @@ export default function Gallery() {
                 src={gallery[currentIndex].src}
                 controls
                 autoPlay
-                alt={gallery[currentIndex].alt}
               />
             )}
           </div>
