@@ -38,7 +38,7 @@ export default function Gallery() {
             {item.type === 'image' ? (
               <img src={item.src} alt={item.alt} />
             ) : (
-              <video src={item.src} alt={item.alt} muted />
+              <video src={item.src} muted />
             )}
           </div>
         ))}

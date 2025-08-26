@@ -8,7 +8,10 @@ import gameImage from '../assets/game.png';
 import IconButton from "./IconButton";
 
 
-export default function NavBar({ setActiveSection }) {
+export default function NavBar({ setActiveSection, 
+  }:{
+  setActiveSection: (section: string) => void;
+ }) {
   
   const buttons = [
     { label: "Home", image: homeImage, onClick: () => setActiveSection('Home') },
