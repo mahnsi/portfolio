@@ -30,10 +30,10 @@ export default function App() {
 
   return (
     <main>
-      <div className="min-h-screen bg-portfolio-bg bg-cover bg-center bg-no-repeat font-sans flex flex-col items-center justify-center p-8 relative">
+      <div className="h-dvh bg-portfolio-bg bg-cover bg-center bg-no-repeat font-sans flex flex-col items-center justify-center p-8 relative">
          {/* section for react label and music icon */}
-        <div className="flex items-center justify-between w-full px-4">
-          <div className="text-white text-sm">
+        <div className="flex justify-between w-full px-4">
+          <div className="text-white text-sm vertical-align">
             Made with React + TailwindCSS
           </div>
           {/* Music player pop up*/}
@@ -41,10 +41,10 @@ export default function App() {
         </div>
 
         {/* Main Content */}
-        <div className="mt-8 backdrop-blur-lg text-white rounded-xl shadow-md w-full max-w-5xl border border-white/30 rounded-[20px]  p-8 mb-4 relative">
+        <div className="mt-8 backdrop-blur-lg text-white rounded-xl shadow-md w-full max-w-5xl border border-white/30 relative">
       
-          {/* header part */}
-          <header className="mb-8 text-center">
+          {/* header part ("mahnsis portfolio")*/}
+          <header className="m-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-md">Mahnsi's Portfolio</h1>
             <p className="text-lg text-white/80 italic drop-shadow-sm">Welcome to MahnsiOS</p>
           </header>

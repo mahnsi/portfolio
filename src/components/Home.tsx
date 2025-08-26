@@ -4,22 +4,25 @@ export default function Home() {
     const { aboutMe, projects } = data;
 
     return (
-        <div className="flex">
+        <div className="flex m-6">
             {/* Image of Me Section */}
-            <section className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 shadow-xl p-6 flex flex-col items-center justify-center w-1/4">
+            <section className="flex-1 bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6 items-center justify-center w-1/4">
                 <img
-                    src="/path-to-your-image.jpg"
+                    src="../assets/me.jpg"
                     alt="A picture of me"
                     className="rounded-full w-32 h-32 object-cover border-2 border-white/30 shadow-lg mb-4"
                 />
-                <h2 className="text-2xl font-bold text-white">{aboutMe.name}</h2>
+                <h2 className="text-2xl font-bold text-white text-center">{aboutMe.name}</h2>
                 <p className="text-white/80 text-center mt-2">
                     {aboutMe.subtitle}
                 </p>
             </section>
 
+
+
+            <div className="">
             {/* Main Content (right side) */}
-            <main className="flex-1 space-y-8 p-6">
+            <main className="flex-1 space-y-8 ml-4">
                 {/* About Me Section */}
                 <section className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6">
                     <h2 className="text-2xl font-bold text-white mb-4">About Me</h2>
@@ -44,11 +47,11 @@ export default function Home() {
                             </li>
                         ))}
                     </ul>
-
+                 
                     <p className="text-white/80">
                         You can find the source code for this website on my{" "}
                         <a
-                            href="https://github.com/your-repo/portfolio"
+                            href="https://github.com/mahnsi/portfolio"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-400 hover:underline"
@@ -56,8 +59,11 @@ export default function Home() {
                             GitHub
                         </a>.
                     </p>
-                </section>
+                </section>  
             </main>
+            </div>
+
+
         </div>
     );
 }

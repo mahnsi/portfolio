@@ -4,7 +4,7 @@ export default function Experience() {
   const { experience } = data;
 
   return (
-    <section className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6">
+    <section className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6 mb-4">
       <h2 className="text-2xl font-bold text-white mb-4">My Experience</h2>
       <div className="space-y-4">
         {experience.map((project, index) => (

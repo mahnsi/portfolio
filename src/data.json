@@ -7,28 +7,32 @@
     "projects": [
       {
         "name": "UniSphere - Full Stack E-Commerce Website",
-        "description": "Brief description of the project...",
+        "description": "A full-stack E-commerce shopping website using Java, Jakarta Web Services, and mySQL for backend services including session tracking and authentication.",
         "link": "https://github.com/mahnsi/unisphere"
       },
       {
         "name": "Song popularity prediction model",
         "description": "Used machine learning to predict song popularity using a Kaggle dataset.",
-        "link": "https://github.com/project2"
+        "link": "https://github.com/mahnsi/song-prediction"
       },
       {
         "name": "Bar FM",
         "description": "Music stats website for Last.fm users.",
-        "link": "https://github.com/project2"
+        "link": "https://github.com/mahnsi/BarFM"
       }
     ],
     "experience": [
       {
         "name": "Software QA Intern at Environics Analytics",
-        "description": "errr"
+        "description": "Analyzed and documented software defects, contributing to significant reductions in critical bugs. Prepared and executed detailed test plans, adhering to organizational processes and standards. Automated existing QA processes with C# scripts, improving team efficiency. Collaborated in an Agile environment, using Azure DevOps for bug tracking, maintenance, and continuous integration workflows."
       },
       {
         "name": "Undergraduate Researcher at York University",
-        "description": "erm"
+        "description": "Conducted research and development on an LLM-native Operating System project at the Performant and Available Computing Systems Lab at York University. Enhanced Ubuntu Linux kernel by implementing a conversational Operating System using C and Python. Collaborated with an undergraduate team to achieve project milestones."
+      },
+      {
+        "name": "Data Engineer Intern at TD",
+        "description": "Built and maintained ETL processes and pipelines using Azure Databricks, Azure Data Factory, and PySpark to automate and scale data operations, Implemented reusable utility functions to enhance maintainability and modularity across the team’s codebase, Wrote unit tests to validate ETL logic and ensure production-ready data pipelines."
       }
     ],
     "contact": {
@@ -49,10 +53,6 @@
         {
           "link":"https://github.com/mahnsi",
           "img" : "/assets/contact/github.png"
-        },
-        {
-          "link":"https://www.youtube.com/@conegf",
-          "img" : "/assets/contact/youtube.png"
         }
       ]
     },
@@ -61,7 +61,18 @@
       { "type": "image", "src": "/assets/gallery/1.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/2.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/3.JPG", "alt": "Image" },
-      { "type": "video", "src": "/assets/gallery/x.mp4", "alt": "Video" }
+      { "type": "image", "src": "/assets/gallery/4.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/5.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/6.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/7.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/8.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/9.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/10.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/11.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/12.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/13.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/14.JPG", "alt": "Image" },
+      { "type": "image", "src": "/assets/gallery/15.JPG", "alt": "Image" }
     ],
 
     "songs": [

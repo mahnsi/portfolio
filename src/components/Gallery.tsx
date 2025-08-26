@@ -25,7 +25,7 @@ export default function Gallery() {
   };
 
   return (
-    <section className="gallery-section">
+    <section className="gallery-section mb-4">
       <p className="font-sans text-[20px] font-bold " >Gallery of some photos I took - Click to expand!</p>
       <div className="gallery-grid">
         {gallery.map((item, index) => (
