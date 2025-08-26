@@ -1,0 +1,15 @@
+name = "mahnsi-portfolio"           
+type = "javascript"        
+
+account_id = "8ab4e22f2d8ae3dc40edde2e4b65bd17"
+workers_dev = true
+compatibility_date = "2025-08-26"
+
+# Optional: if you have a custom domain
+# route = "mahnsi.dev"
+
+# Workers Sites settings
+site = { 
+    bucket = "./dist",        
+    entry-point = "workers-site"
+}
