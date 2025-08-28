@@ -1,5 +1,5 @@
 name = "mahnsi-portfolio"           
-type = "javascript"        
+main = "workers-site/index.js"       
 
 account_id = "8ab4e22f2d8ae3dc40edde2e4b65bd17"
 workers_dev = true
@@ -9,7 +9,4 @@ compatibility_date = "2025-08-26"
 # route = "mahnsi.dev"
 
 # Workers Sites settings
-site = { 
-    bucket = "./dist",        
-    entry-point = "workers-site"
-}
+site = {  bucket = "./dist"}

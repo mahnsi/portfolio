@@ -7,32 +7,37 @@
     "projects": [
       {
         "name": "UniSphere - Full Stack E-Commerce Website",
-        "description": "A full-stack E-commerce shopping website using Java, Jakarta Web Services, and mySQL for backend services including session tracking and authentication.",
+        "description": "A full-stack E-commerce shopping website using Java, JAX-RS, and mySQL for backend services including session tracking, authentication, and inventory management.",
         "link": "https://github.com/mahnsi/unisphere"
       },
       {
         "name": "Song popularity prediction model",
-        "description": "Used machine learning to predict song popularity using a Kaggle dataset.",
+        "description": "Used machine learning tools to predict song popularity using a Kaggle dataset.",
         "link": "https://github.com/mahnsi/song-prediction"
       },
       {
         "name": "Bar FM",
         "description": "Music stats website for Last.fm users.",
         "link": "https://github.com/mahnsi/BarFM"
+      },
+      {
+        "name": "Recycle AI",
+        "description": "Hackathon project created for GenAI Genesis 2024 at UofT. It is a web app that uses computer vision to identify recyclable materials and provide users with information on how and where to properly recycle them.",
+        "link": "https://github.com/caratooo/RecycleAI"
       }
     ],
     "experience": [
       {
         "name": "Software QA Intern at Environics Analytics",
-        "description": "Analyzed and documented software defects, contributing to significant reductions in critical bugs. Prepared and executed detailed test plans, adhering to organizational processes and standards. Automated existing QA processes with C# scripts, improving team efficiency. Collaborated in an Agile environment, using Azure DevOps for bug tracking, maintenance, and continuous integration workflows."
+        "description": "As a Software QA Intern, I analyzed and documented software defects, contributing to a significant reduction in critical bugs. I prepared and executed detailed test plans and did regression testing. I also automated existing QA processes with C# scripts, which improved team efficiency. This was my first time collaborating in an Agile environment, and we used Azure DevOps for bug tracking, maintenance, and continuous integration workflows."
       },
       {
         "name": "Undergraduate Researcher at York University",
-        "description": "Conducted research and development on an LLM-native Operating System project at the Performant and Available Computing Systems Lab at York University. Enhanced Ubuntu Linux kernel by implementing a conversational Operating System using C and Python. Collaborated with an undergraduate team to achieve project milestones."
+        "description": "I conducted research and development on an LLM-native Operating System project at the Performant and Available Computing Systems Lab at York University. Implemented the user space for a conversational Operating System using C and Python."
       },
       {
         "name": "Data Engineer Intern at TD",
-        "description": "Built and maintained ETL processes and pipelines using Azure Databricks, Azure Data Factory, and PySpark to automate and scale data operations, Implemented reusable utility functions to enhance maintainability and modularity across the team’s codebase, Wrote unit tests to validate ETL logic and ensure production-ready data pipelines."
+        "description": "As a Data Engineering Intern at TD Bank, I built and maintained ETL processes and pipelines using Azure Databricks, Azure Data Factory, and PySpark to automate and scale data operations, Implemented reusable utility functions to enhance maintainability and modularity across the team’s codebase, Wrote unit tests to validate ETL logic and ensure production-ready data pipelines."
       }
     ],
     "contact": {

@@ -2,7 +2,7 @@ function IconButton({ image, label, onClick }: {image: string; label: string; on
     return (
       <div className="group flex flex-col items-center relative peer">
         <button
-          className="w-16 h-16 bg-center bg-no-repeat bg-contain transition-transform duration-300 ease-out hover:scale-150 hover:z-10"
+          className="w-16 h-16 bg-center bg-no-repeat bg-contain transition-transform duration-300 ease-out hover:scale-[2] hover:z-10"
           style={{ backgroundImage: `url(${image})` }}
           onClick={onClick}
           aria-label={label}

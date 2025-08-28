@@ -78,7 +78,7 @@ export default function MusicPlayer() {
     }
   }, []);
 
-  // Draggable functionality
+  // draggable
   const handleMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
     setIsDragging(true);
     const rect = popupRef.current?.getBoundingClientRect();
@@ -118,11 +118,13 @@ export default function MusicPlayer() {
     <div>
       {/* Music Player Button */}
       <div className="flex items-center justify-end w-full px-4">
-        <IconButton
-          image={MPimage}
-          label={"Music Player"}
-          onClick={()=>setMusicPlayerVisible(true)}
-        />
+      <div style={{ opacity: 0.5, pointerEvents: 'none' }}>
+      <IconButton
+        image={MPimage}
+        label={"Music Player"}
+        onClick={() => setMusicPlayerVisible(true)}
+      />
+    </div>
       </div>
 
       {/* Music Player Popup */}

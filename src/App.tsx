@@ -9,7 +9,7 @@ import NavBar from './components/NavBar';
 import MusicPlayer from './components/MusicPlayer';
 
 export default function App() {
-  const [activeSection, setActiveSection] = useState('Home'); // State to track active section
+  const [activeSection, setActiveSection] = useState('Home'); // to track active section (icon clicked)
 
   const renderContent = () => {
     switch (activeSection) {
@@ -36,17 +36,17 @@ export default function App() {
           <div className="text-white text-sm vertical-align">
             Made with React + TailwindCSS
           </div>
-          {/* Music player pop up*/}
+          {/* music player pop up in corner*/}
           <MusicPlayer />
         </div>
 
         {/* Main Content */}
         <div className="mt-8 backdrop-blur-lg text-white rounded-xl shadow-md w-full max-w-5xl border border-white/30 relative">
       
-          {/* header part ("mahnsis portfolio")*/}
+          {/* header part ("mahnsis portfolio")  Welcome to MahnsiOS */}
           <header className="m-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-md">Mahnsi's Portfolio</h1>
-            <p className="text-lg text-white/80 italic drop-shadow-sm">Welcome to MahnsiOS</p>
+            <p className="text-lg text-white/80 italic drop-shadow-sm"> </p>
           </header>
           {/* content part */}
           <div className="grid grid-cols-1 gap-8 h-[500px] overflow-y-auto px-4">
