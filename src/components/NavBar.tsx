@@ -23,7 +23,7 @@ export default function NavBar({ setActiveSection,
   ];
 
   return (
-    <footer className="text-white rounded-xl pt-4 flex justify-center space-x-6 shadow-lg mt-5">
+    <footer className="text-white rounded-3xl pt-4 flex justify-center space-x-6 shadow-lg mt-5 backdrop-blur-lg border border-white/10">
       <div className="flex flex-wrap gap-12">
       {buttons.map((button, index) => (
         <IconButton
