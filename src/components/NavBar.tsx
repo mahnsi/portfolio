@@ -19,6 +19,7 @@ export default function NavBar({ setActiveSection,
     { label: "Experience", image: expImage, onClick: () => setActiveSection('Experience') },
     { label: "Contact", image: contactImage, onClick: () => setActiveSection('Contact') },
     { label: "Gallery", image: galleryImage, onClick: () => setActiveSection('Gallery') },
+    { label: "Guestbook", image: guestbookImage, onClick: () => setActiveSection('Guestbook') }
   ];
 
   return (
@@ -34,19 +35,7 @@ export default function NavBar({ setActiveSection,
       ))}
     </div>
 
-      {/* Guestbook - coming soon) */}
-      <div className="group flex flex-col items-center relative peer opacity-30 pointer-events-none">
-        <button
-          className="w-16 h-16 bg-center bg-no-repeat bg-contain transition-transform duration-300 ease-out hover:scale-150 hover:z-10"
-          style={{ backgroundImage: `url(${guestbookImage})` }}
-          aria-label="Guestbook"
-        >
-          📖
-        </button>
-        <span className="mt-1 text-sm opacity-100"></span>
-      </div>
-
-      {/* muahaha */}
+      {/* muahaha (coming soon) */}
       <div className="group flex flex-col items-center relative peer opacity-30 pointer-events-none">
         <button
           className="w-16 h-16 bg-center bg-no-repeat bg-contain transition-transform duration-300 ease-out hover:scale-150 hover:z-10"
