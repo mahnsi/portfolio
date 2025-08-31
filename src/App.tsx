@@ -1,15 +1,15 @@
-import './App.css';
 import { useState } from 'react';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import Guestbook from './components/Guestbook';
 import NavBar from './components/NavBar';
 import MusicPlayer from './components/MusicPlayer';
 
 export default function App() {
-  const [activeSection, setActiveSection] = useState('Home'); // to track active section (icon clicked)
+  const [activeSection, setActiveSection] = useState('Home'); // to track active section (icon clicked) . this is whats passed down to NavBar
 
   const renderContent = () => {
     switch (activeSection) {
@@ -23,6 +23,8 @@ export default function App() {
         return <Gallery />;
       case 'Contact':
         return <Contact />;
+      case 'Guestbook':
+        return <Guestbook />;
       default:
         return <Home />;
     }

@@ -3,7 +3,7 @@ import IconButton from './IconButton';
 import MPimage from '../assets/musicplayer.png';
 import spinningCD from '../assets/spinningCD.mp4';
 import data from '../data.json';
-import './music.css';
+import '../style/music.css';
 
 interface Song {
   title: string;
