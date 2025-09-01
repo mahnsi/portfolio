@@ -46,7 +46,7 @@ export default function App() {
         </div>
 
         {/* Main Content */}
-        <div className="mt-8 backdrop-blur-lg text-white rounded-xl shadow-md w-full max-w-5xl border border-white/30 relative">
+        <div className="mt-8 pb-4 backdrop-blur-lg text-white rounded-xl shadow-lg w-full max-w-5xl border border-white/30">
       
           {/* header part ("mahnsis portfolio")  Welcome to MahnsiOS */}
           <header className="m-8 text-center">

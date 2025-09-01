@@ -63,6 +63,7 @@
     },
 
     "gallery": [
+
       { "type": "image", "src": "/assets/gallery/1.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/2.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/3.JPG", "alt": "Image" },
@@ -78,6 +79,14 @@
       { "type": "image", "src": "/assets/gallery/13.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/14.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/15.JPG", "alt": "Image" }
+    ],
+
+    "games":[
+      {
+        "name": "Maze",
+        "description": "",
+        "img": "/assets/games/maze.png"
+      }
     ],
 
     "songs": [
