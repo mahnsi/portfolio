@@ -1,19 +1,21 @@
 {
     "aboutMe": {
       "name": "Mahnsi Ruparelia",
-      "subtitle": "Bsc Hons. Computer Science at York University",
-      "content": "Hi! I’m Mahnsi, a passionate developer, researcher, and Computer Science student. I'm interested in Operating Systems, low-level computing, DSA, Linguistics, Geography, and Music! Check out my site!"
+      "subtitle": "Msc Computer Science at York University",
+      "content": "Hi! I’m Mahnsi, a passionate developer, researcher, and Computer Science student. I'm interested in Operating Systems, low-level computing, concurrency, Linguistics, and Geography! Check out my site!"
     },
     "projects": [
       {
         "name": "UniSphere - Full Stack E-Commerce Website",
         "description": "A full-stack E-commerce shopping website using Java, JAX-RS, and mySQL for backend services including session tracking, authentication, and inventory management.",
-        "link": "https://github.com/mahnsi/unisphere"
+        "link": "https://github.com/mahnsi/unisphere",
+        "pinned": true
       },
       {
         "name": "Song popularity prediction model",
         "description": "Used machine learning tools to predict song popularity using a Kaggle dataset.",
-        "link": "https://github.com/mahnsi/song-prediction"
+        "link": "https://github.com/mahnsi/song-prediction",
+        "pinned": true
       },
       {
         "name": "Bar FM",
@@ -29,7 +31,7 @@
     "experience": [
       {
         "name": "Software QA Intern at Environics Analytics",
-        "description": "As a Software QA Intern, I analyzed and documented software defects, contributing to a significant reduction in critical bugs. I prepared and executed detailed test plans and did regression testing. I also automated existing QA processes with C# scripts, which improved team efficiency. This was my first time collaborating in an Agile environment, and we used Azure DevOps for bug tracking, maintenance, and continuous integration workflows."
+        "description": "My first internship! I worked as Software QA Intern at a really cool data company. I learned about the software development and software testing life cycle, and analyzed and documented software defects which contributed to a significant reduction in bugs. I also automated existing QA processes with C# scripts, which improved team efficiency. This was my first time collaborating in an Agile environment, and I gained tons of valuable experience. This internship gave me a new perspective on my career."
       },
       {
         "name": "Undergraduate Researcher at York University",
@@ -37,7 +39,7 @@
       },
       {
         "name": "Data Engineer Intern at TD",
-        "description": "As a Data Engineering Intern at TD Bank, I built and maintained ETL processes and pipelines using Azure Databricks, Azure Data Factory, and PySpark to automate and scale data operations, Implemented reusable utility functions to enhance maintainability and modularity across the team’s codebase, Wrote unit tests to validate ETL logic and ensure production-ready data pipelines."
+        "description": "As a Data Engineering Intern at TD Bank, I built and maintained ETL processes and pipelines using Azure Databricks, Azure Data Factory, and PySpark to automate and scale data operations. This internship taught me so much about big data systems and working with large codebases in a corporate environment. I met alot of really cool people too :) from befriending other interns to coffee-chatting seniors; I got a fresh perspective on the industry and got tons of great advice. and free swag lolz"
       }
     ],
     "contact": {
@@ -52,12 +54,12 @@
           "img" : "/assets/contact/linkedin.png"
         },
         {
-          "link":"https://devpost.com/mahnsi",
-          "img" : "/assets/contact/devpost.png"
-        },
-        {
           "link":"https://github.com/mahnsi",
           "img" : "/assets/contact/github.png"
+        },
+        {
+          "link":"https://devpost.com/mahnsi",
+          "img" : "/assets/contact/devpost.png"
         }
       ]
     },

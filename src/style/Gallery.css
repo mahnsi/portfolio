@@ -1,9 +1,9 @@
 .gallery-section {
   background: #c3c7cb;
-  border: 2px solid #ffffff;
+  border: 2px solid #666;
   padding: 16px;
   border-radius: 8px;
-  box-shadow: inset -2px -2px 0px #808080, inset 2px 2px 0px #ffffff;
+  box-shadow: 4px 4px 0px #999;
 }
 
 .gallery-grid {
