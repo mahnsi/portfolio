@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dark-blue-font {
+    @apply text-[12px] font-medium text-[#003366] group-hover:brightness-110 w-full;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold text-white mb-4 tracking-normal;
+    font-family: "MS Sans Serif", "Microsoft Sans Serif", "Tahoma", "Geneva", sans-serif;
+  }
+}

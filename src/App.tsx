@@ -8,6 +8,7 @@ import Guestbook from './components/Guestbook';
 import Games from './components/Games';
 import NavBar from './components/NavBar';
 import MusicPlayer from './components/MusicPlayer';
+import "./style/globals.css";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('Home'); // to track active section (icon clicked) . this is whats passed down to NavBar
@@ -48,9 +49,9 @@ export default function App() {
         {/* Main Content */}
         <div className="mt-8 pb-4 backdrop-blur-lg text-white rounded-xl shadow-lg w-full max-w-5xl border border-white/30">
       
-          {/* header part ("mahnsis portfolio")  Welcome to MahnsiOS */}
+          {/* header part "Welcome to MahnsiOS" */}
           <header className="m-8 text-center">
-            <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-md">Mahnsi's Portfolio</h1>
+            <h1 className="section-title text-4xl">Welcome to MahnsiOS</h1>
             <p className="text-lg text-white/80 italic drop-shadow-sm"> </p>
           </header>
           {/* content part */}
