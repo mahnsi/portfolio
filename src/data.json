@@ -2,7 +2,7 @@
     "aboutMe": {
       "name": "Mahnsi Ruparelia",
       "subtitle": "Msc Computer Science at York University",
-      "content": "Hi! I’m Mahnsi, a passionate developer, researcher, and Computer Science student. I'm interested in Operating Systems, low-level computing, concurrency, Linguistics, and Geography! Check out my site!"
+      "content": "Hi! I’m Mahnsi, a passionate developer, researcher, and Computer Science student. I'm interested in Operating Systems, low-level computing, concurrency, Explainable AI, Linguistics, and Geography! Check out my site!"
     },
     "projects": [
       {
@@ -26,6 +26,11 @@
         "name": "Recycle AI",
         "description": "Hackathon project created for GenAI Genesis 2024 at UofT. It is a web app that uses computer vision to identify recyclable materials and provide users with information on how and where to properly recycle them.",
         "link": "https://github.com/caratooo/RecycleAI"
+      },
+      {
+        "name": "Hashi",
+        "description": "Hashi game",
+        "link": "https://github.com/mahnsi/hashi"
       }
     ],
     "experience": [
@@ -80,6 +85,19 @@
       { "type": "image", "src": "/assets/gallery/13.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/14.JPG", "alt": "Image" },
       { "type": "image", "src": "/assets/gallery/15.JPG", "alt": "Image" }
+    ],
+
+    "games":[
+      {
+        "name": "Maze",
+        "description": "",
+        "img": "/assets/games/maze.png"
+      },
+      {
+        "name": "Algorithm Visualizer",
+        "description": "",
+        "img": "/assets/games/maze.png"
+      }
     ],
 
     "songs": [

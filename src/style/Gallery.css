@@ -4,6 +4,9 @@
   padding: 16px;
   border-radius: 8px;
   box-shadow: 4px 4px 0px #999;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px #aaa;
+  font-size: 20px;
 }
 
 .gallery-grid {

@@ -4,9 +4,16 @@ export default function Experience() {
   const { experience } = data;
 
   return (
-    <section className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6 mb-4">
-      <h2 className="section-title">My Experience</h2>
-      <div className="space-y-4">
+    <section className="section-w-taskbar">
+      <div className="section-taskbar" >
+          My Experience
+          <div className="flex gap-1.5">
+            <div className="task-btn"></div>
+            <div className="task-btn"></div>
+            <div className="task-btn"></div>
+          </div>
+        </div>
+      <div className="space-y-4 mx-6">
         {experience.map((project, index) => (
           <div
             key={index}

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .glowing-border {
+    @apply border border-white border-opacity-80 shadow-[0_0_15px_rgba(255,255,255,0.8)];
+  }
+
   .dark-blue-font {
     @apply text-[12px] font-medium text-[#003366] group-hover:brightness-110 w-full;
   }
@@ -10,5 +14,30 @@
   .section-title {
     @apply text-2xl font-semibold text-white mb-4 tracking-normal;
     font-family: "MS Sans Serif", "Microsoft Sans Serif", "Tahoma", "Geneva", sans-serif;
+  }
+  .section-taskbar {
+    @apply flex justify-between items-center 
+    text-[15px] font-semibold text-[#003366] mb-4 px-2 rounded-t-2xl border-t border-x shadow-[2px_2px_0_rgba(0,0,0,0.25)];
+    background: linear-gradient(180deg, #E6F4FF 0%, #7EC9FF 50%, #4A98E0 100%);
+    border-color: #003366;
+  }
+  .section-w-taskbar {
+    @apply bg-white bg-opacity-15 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-0 pb-6 mb-4 
+  }
+
+  .section-wo-taskbar{
+    @apply bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6 mb-4
+  }
+
+  .task-btn {
+    @apply h-4 w-4 rounded-[4px] border shadow-[inset_-1px_-1px_0_rgba(0,0,0,0.4),inset_1px_1px_0_rgba(255,255,255,0.7)]
+    active:shadow-[inset_1px_1px_0_rgba(0,0,0,0.35),inset_-1px_-1px_0_rgba(255,255,255,0.6)];
+    width: 12px;
+    height: 12px;
+    background-color: #c0c0c0;
+    border: 1px solid;
+    box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #808080;
+    background: linear-gradient(180deg, #E6F4FF 0%, #BFE4FF 60%, #7EC9FF 100%);
+    border-color: "#003366"
   }
 }

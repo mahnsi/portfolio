@@ -4,9 +4,15 @@ export default function Projects() {
   const { projects } = data;
 
   return (
-    <section className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-6 mb-4">
-      <h2 className="section-title">My Projects</h2>
-
+    <section className="section-w-taskbar">
+        <div className="section-taskbar" >
+          My Projects
+          <div className="flex gap-1.5">
+            <div className="task-btn"></div>
+            <div className="task-btn"></div>
+            <div className="task-btn"></div>
+          </div>
+        </div>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-4 justify-items-center">
         {projects.map((project, i) => (
           <File key={i} name={project.name} href={project.link} />
