@@ -1,0 +1,66 @@
+  /* Window shell */
+  .retro-window{
+    position: relative;
+    width: 100%;
+    max-width: 36rem; /* ~ max-w-lg */
+    border-radius: 18px;
+    border: 1px solid rgba(0,51,102,0.45);
+    background: rgba(255,255,255,0.82);
+    backdrop-filter: blur(10px);
+    box-shadow:
+      0 28px 70px rgba(15,23,42,0.45),
+      0 2px 0 rgba(255,255,255,0.35) inset;
+    overflow: hidden;
+  }
+  
+  .task-btn--close{
+    background: linear-gradient(180deg, #FFD6D6 0%, #FF8A8A 60%, #E04A4A 100%);
+  }
+  
+  /* Body */
+  .retro-body{
+    padding: 14px 14px 16px;
+    background:
+      radial-gradient(circle at 20% 0%, rgba(126,201,255,0.18), rgba(255,255,255,0) 55%),
+      rgba(255,255,255,0.80);
+  }
+  
+  .retro-text{
+    color: rgba(0,51,102,0.92);
+    line-height: 1.6;
+    white-space: pre-line;
+  }
+  
+  /* Buttons */
+  .retro-actions{
+    margin-top: 14px;
+    display:flex;
+    justify-content:flex-end;
+    gap: 10px;
+  }
+  
+  .retro-btn{
+    padding: 8px 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(0,51,102,0.25);
+    background: rgba(255,255,255,0.65);
+    color: #003366;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow:
+      0 10px 24px rgba(15,23,42,0.12),
+      inset 0 1px 0 rgba(255,255,255,0.75);
+    transition: transform 120ms ease, filter 120ms ease;
+  }
+  
+  .retro-btn:hover{
+    transform: translateY(-1px);
+    filter: brightness(1.02);
+  }
+  
+  .retro-btn--primary{
+    border-color: rgba(0,51,102,0.30);
+    background: linear-gradient(180deg, rgba(230,244,255,0.95), rgba(126,201,255,0.90) 55%, rgba(74,152,224,0.92));
+    color: #003366;
+  }
+  
