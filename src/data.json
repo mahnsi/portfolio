@@ -99,14 +99,10 @@
 
     "games":[
       {
-        "name": "Maze",
-        "description": "",
-        "img": "/assets/games/maze.png"
-      },
-      {
-        "name": "Algorithm Visualizer",
-        "description": "",
-        "img": "/assets/games/maze.png"
+        "name": "Hashi",
+        "description": "Hashiwokakero puzzle game",
+        "img": "/assets/games/hashi.png",
+        "url": "https://hashi.mahnsi.dev"
       }
     ],
 

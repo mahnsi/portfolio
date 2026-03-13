@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Guestbook from './components/Guestbook';
+import Games from './components/Games';
 import NavBar from './components/NavBar';
 import MusicPlayer from './components/MusicPlayer';
 import "./style/globals.css";
@@ -26,6 +27,8 @@ export default function App() {
         return <Contact />;
       case 'Guestbook':
         return <Guestbook />;
+      case 'Games':
+        return <Games />;
       default:
         return <Home />;
     }
