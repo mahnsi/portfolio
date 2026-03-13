@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="task-btn"></div>
           </div>
         </div>
-      <p className="dark-blue-font text-[14px] mb-4 text-center">{contact.message}</p>
+      <p className="dark-blue-font text-[14px] my-4 text-center">{contact.message}</p>
       <ul className="flex justify-center space-x-6">
         {contact.links.map(({ link, img }, index) => (
           <li className="size-32" key={index}>

@@ -13,7 +13,7 @@ export default function Experience() {
             <div className="task-btn"></div>
           </div>
         </div>
-      <div className="space-y-4 mx-6">
+      <div className="space-y-4 mx-6 my-4">
         {experience.map((project, index) => (
           <div
             key={index}
