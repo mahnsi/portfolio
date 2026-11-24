@@ -41,6 +41,11 @@
         "name": "Sound Block",
         "description": "A real-time 3D visualization of audio features that maps pitch, loudness, and timbre to spatial coordinates in a dynamic cube.",
         "link": "https://github.com/mahnsi/sound-block"
+      },
+      {
+        "name": "TTC Stop Code Map",
+        "description": "Mobile web app in that maps TTC stop codes by location with live geolocation",
+        "link": "https://ttc.mahnsi.dev"
       }
     ],
     "experience": [
